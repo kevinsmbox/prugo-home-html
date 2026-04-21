@@ -5,51 +5,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prugo</title>
+
+  <meta name="description" content="Prugo builds intelligent software and systems that simplify complexity." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header class="container header">
-    <div class="brand">
-      <img src="logo.png" alt="Prugo logo" class="logo" />
-      <span class="brand-name">RUGO</span>
+  <header class="site-header">
+    <div class="container header">
+      <a href="#" class="brand">
+        <img src="logo.png" alt="Prugo logo" class="logo" />
+        <span class="brand-name">PRUGO</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#solutions">Solutions</a>
+        <a href="#about">About</a>
+        <a href="#support">Support</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </nav>
     </div>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#support">Support</a>
-      <a href="#privacy">Privacy</a>
-      <a href="#terms">Terms</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
   <main>
     <section class="container hero">
       <div class="hero-left">
         <p class="eyebrow">Clear Systems. Smart Growth.</p>
-        <h1>We build intelligent software apps and systems that simplify complexity.</h1>
+
+        <h1>Prugo builds intelligent software and systems that simplify complexity.</h1>
+
         <p class="hero-copy">
-          Prugo combines clarity, innovation, and fresh growth to build modern software with purpose.
+          Custom applications, AI workflows, and scalable business systems designed for clarity, speed, and growth.
         </p>
       </div>
 
       <div class="hero-right">
-        <div class="card-grid">
-          <div class="card">
-            <h3>Software Apps</h3>
-            <p>Modern mobile and web experiences</p>
+        <div class="hero-panel">
+          <div class="hero-panel-top">
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
           </div>
-          <div class="card">
-            <h3>AI Tools</h3>
-            <p>Automation and intelligent workflows</p>
-          </div>
-          <div class="card">
-            <h3>Business Systems</h3>
-            <p>Dashboards and internal platforms</p>
-          </div>
-          <div class="card">
-            <h3>Custom Solutions</h3>
-            <p>Built around real customer needs</p>
+
+          <div id="solutions" class="card-grid">
+            <div class="card">
+              <h3>Software Applications</h3>
+              <p>Web and mobile products built for real users and long-term growth.</p>
+            </div>
+
+            <div class="card">
+              <h3>AI Workflows</h3>
+              <p>Automation, assistants, and intelligent systems that reduce manual work.</p>
+            </div>
+
+            <div class="card">
+              <h3>Business Systems</h3>
+              <p>Internal tools, dashboards, and operations platforms built for clarity.</p>
+            </div>
+
+            <div class="card">
+              <h3>Custom Solutions</h3>
+              <p>Tailored software designed around practical needs and real outcomes.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -57,27 +81,38 @@
 
     <section id="about" class="about-section">
       <div class="container about-grid">
-        <div>
-          <h2>Why Prugo</h2>
-          <p>Inspired by clarity (Purgo) and vibrant growth (푸르다).</p>
+        <div class="about-intro">
+          <p class="section-label section-label-light">Why Prugo</p>
+          <h2>Built on clarity, growth, and forward movement.</h2>
+          <p>
+            Prugo is inspired by Purgo and the Korean word 푸르다,
+            representing freshness, vitality, and growth.
+          </p>
         </div>
-        <div>
+
+        <div class="about-card">
           <h3>What We Build</h3>
-          <p>Applications, systems, and digital tools designed to solve practical problems.</p>
+          <p>
+            Applications, systems, and digital tools designed to solve practical business problems.
+          </p>
         </div>
-        <div>
+
+        <div class="about-card">
           <h3>How We Work</h3>
-          <p>Thoughtful design, reliable engineering, and continuous improvement.</p>
+          <p>
+            Thoughtful design, reliable engineering, modern tooling, and continuous improvement.
+          </p>
         </div>
       </div>
     </section>
 
     <section id="support" class="container section">
       <div class="content-narrow">
+        <p class="section-label">Support</p>
         <h2>Support</h2>
         <p>
-          If you need help with a Prugo app or service, please contact us at
-          <a href="mailto:admin@prugo.co">admin@prugo.co</a>.
+          If you need help with a Prugo app or service, please use the contact information shown at the bottom of this
+          page.
         </p>
         <p>
           Please include the app name, device type, operating system version, and a brief description of the issue so we
@@ -90,7 +125,8 @@
     </section>
 
     <section id="privacy" class="container section">
-      <div class="content-medium">
+      <div class="content-medium legal-block">
+        <p class="section-label">Privacy</p>
         <h2>Privacy Policy</h2>
         <p class="effective-date">Effective Date: April 20, 2026</p>
 
@@ -118,8 +154,8 @@
           agreements, or comply with legal requirements.
         </p>
         <p>
-          You may contact us at <a href="mailto:admin@prugo.co">admin@prugo.co</a> with privacy-related questions or
-          requests.
+          Privacy-related questions or requests may be directed using the contact information shown at the bottom of
+          this page.
         </p>
         <p>
           This policy may be updated from time to time. The latest version will be posted on this page with an updated
@@ -129,7 +165,8 @@
     </section>
 
     <section id="terms" class="container section">
-      <div class="content-medium">
+      <div class="content-medium legal-block">
+        <p class="section-label">Terms</p>
         <h2>Terms of Use</h2>
         <p class="effective-date">Effective Date: April 20, 2026</p>
 
@@ -154,17 +191,27 @@
           liable for indirect, incidental, special, consequential, or punitive damages.
         </p>
         <p>
-          If you have questions about these Terms, contact <a href="mailto:admin@prugo.co">admin@prugo.co</a>.
+          Questions about these Terms may be directed using the contact information shown at the bottom of this page.
         </p>
+      </div>
+    </section>
+
+    <section class="mini-band">
+      <div class="container mini-band-inner">
+        <div class="mini-band-copy">Clear Systems. Smart Growth.</div>
+        <div class="mini-band-email">support@prugo.co</div>
       </div>
     </section>
   </main>
 
-  <footer id="contact" class="container footer">
-    <span>© 2026 Prugo</span>
-    <div class="footer-contact">
-      <div>Contact</div>
-      <div><a href="mailto:admin@prugo.co">admin@prugo.co</a></div>
+  <footer class="container footer">
+    <div class="footer-copy">© 2026 Prugo</div>
+
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#support">Support</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#terms">Terms</a>
     </div>
   </footer>
 </body>
